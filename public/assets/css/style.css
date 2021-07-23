@@ -44,9 +44,26 @@
 
 }
 
+.caption{
+
+  width: 115px;
+  height: 90px;
+  border-style: solid;
+  display: inline-block;
+  margin: 0px -4px -4px;
+  overflow: auto;
+
+}
+.center{
+  text-align: center;
+  justify-content: center;
+
+}
+
+
 .mt-4{
   margin-top: 4%;
-  font-family: cursive;
+  
 }
 
 
@@ -58,14 +75,43 @@ p,h4{
   height: 100%;
   font-weight: 700;
   margin: 0px;
+  font-family: sans-serif;
 }
 h1{
   text-align: center;
   justify-content: center;
+  font-family: cursive;
 
 
 }
 
+.header{
+  height: 20px;
+}
+.metales{
+  width: 700px; /* 0.55*/
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+  overflow: auto;
+}
+
+.no-metales{
+
+  width: 349px; /*0.33*/
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+  overflow: auto;
+}
+
+.metaloides{
+
+  width: 115px; /*0.11*/
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+}
 .bg-grey{
     background-color: rgb(144, 144, 144);
   }

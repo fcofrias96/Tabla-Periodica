@@ -11,8 +11,10 @@ const modulusHelpers = require("./helpers/hbs/modulus");
 const blankSpaceHelpers = require("./helpers/hbs/blank space");
 const lineBreakHelpers = require("./helpers/hbs/line break");
 const completingHelpers = require("./helpers/hbs/completing");
-const validateHelpers = require("./routes/home");
-const infoHelpers = require("./routes/home");
+const validateHelpers = require("./helpers/hbs/validate");
+const infoHelpers = require("./helpers/hbs/info");
+const captionHelpers = require("./helpers/hbs/caption");
+
 
 
 app.engine(
@@ -25,7 +27,8 @@ app.engine(
       modulus: modulusHelpers.Modulus,
       completing: completingHelpers.Completing,
       validate: validateHelpers.Validate,
-      info: infoHelpers.Info
+      info: infoHelpers.Info,
+      caption: captionHelpers.Caption
     }
   })
 );

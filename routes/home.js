@@ -21,42 +21,5 @@ router.get("/", function (req, res, next) {
 });
 
 
-const Info = function (key, index) {
-
-  let array2 = null
-  let array3 = [];
-  for (x in array) {
-
-    if (array[x][0] == key+1) {
-
-
-      array2 = array[x];
-
-      for (x in array2) {
-
-        array3.push(array2[x]);
-      }
-
-      return array3[index];
-    }
-    else []
-  }
-}
-
-
-const Validate = function (index) {
-
-  for (x in array) {
-
-    if (array[x][0] == index+1) {
-
-      return true
-    }
-  }
-
-
-};
-
 exports.Router = router;
-exports.Info = Info;
-exports.Validate = Validate;
+exports.array = array;

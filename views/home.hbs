@@ -42,10 +42,19 @@
     {{#if (modulus @index)}}
       <div></div>
     {{/if}}
-
+   
   {{/each}}
- 
-  
+  </div>
+
+  <div class="center mt-4">
+    <div class="header ">
+      <div class="metales bg-lightgrey"><h4>Metales</h4></div>
+      <div class="metaloides bg-lightgrey"><h4></h4></div>
+      <div class="no-metales bg-lightgrey"><h4>No Metales</h4></div>
+    </div>
+  {{#each (caption)}}
+  <div class="caption {{this.[1]}}"><h4>{{this.[0]}}</h4></div>
+  {{/each}}
   </div>
 </body>
 
