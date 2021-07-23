@@ -1,99 +1,53 @@
-
-.cube{
-
+.columnas{
+  display: inline-block;
+  width: 63px;
   height: 70px;
+  border-style: solid;
+  text-align: center;
+  margin: 0px -4px -4px;
+    
+
+    
+ 
 }
 
-h2{
-  padding-top: 5px;
-}
+.empty{
 
-.space1{
-
-  width:1013px;
-}
-
-.space2{
-
-  width:633px;
-}
-
-.space3{
-
-  width:190px;
+  display: inline-block;
+  width: 69px;
+  text-align: center;
+  margin: -4px;
+  height: fit-content;
+   
 }
 
 
-.bg-grey{
+.grey{
+
+  display: inline-block;
+  width: 63px;
+  height: 70px;
+  text-align: center;
+  margin: 0px -4px -4px;
   background-color: rgb(144, 144, 144);
+  border-style: solid;
 }
 
-.bg-lightgrey{
-  background-color: rgb(223, 223, 223);
+.grey h4{
+
+  color:  rgb(144, 144, 144);
+}
+.container{
+    
+    text-align: center;
+    margin-top: 5%;
+
 }
 
-.bg-purple{
-
-  background-color: rgb(209, 12, 209);
-  border: solid white;
+.mt-4{
+  margin-top: 4%;
+  font-family: cursive;
 }
-
-.bg-lightyellow{
-
-  background-color: #fffd94;
-}
-
-.bg-yellow{
-
-  background-color: #f1ed00;
-}
-
-.bg-lightgreen{
-
-  background-color: #79ff6d;
-}
-
-.bg-green{
-
-  background-color: #12d800;
-}
-
-.bg-blue{
-
-  background-color:#3535ff;
-}
-
-.bg-red{
-
-  background-color:#ff2b2b;
-}
-.bg-lightOrange{
-
-  background-color: #ffa26d;
-}
-
-.bg-orange{
-
-  background-color: orange;
-}
-
-
-
-.bg-pink{
-
-  background-color: pink;
-}
-
-.m-8{
-  margin: 8%;
-}
-
-
-.editRow{
-  --bs-gutter-x: 0 !important;
-  
-}
-
 
 
 p,h4{
@@ -103,10 +57,72 @@ p,h4{
   justify-content: center;
   height: 100%;
   font-weight: 700;
+  margin: 0px;
+}
+h1{
+  text-align: center;
+  justify-content: center;
+
+
 }
 
-.row div {
-
-  border: solid white 2px;
-}
-
+.bg-grey{
+    background-color: rgb(144, 144, 144);
+  }
+  
+  .bg-lightgrey{
+    background-color: rgb(223, 223, 223);
+  }
+  
+  .bg-purple{
+  
+    background-color: rgb(209, 12, 209);
+  
+  }
+  
+  .bg-lightyellow{
+  
+    background-color: #fffd94;
+  }
+  
+  .bg-yellow{
+  
+    background-color: #f1ed00;
+  }
+  
+  .bg-lightgreen{
+  
+    background-color: #79ff6d;
+  }
+  
+  .bg-green{
+  
+    background-color: #12d800;
+  }
+  
+  .bg-blue{
+  
+    background-color:#3535ff;
+  }
+  
+  .bg-red{
+  
+    background-color:#ff2b2b;
+  }
+  .bg-lightOrange{
+  
+    background-color: #ffa26d;
+  }
+  
+  .bg-orange{
+  
+    background-color: orange;
+  }
+  
+  
+  
+  .bg-pink{
+  
+    background-color: pink;
+  }
+  
