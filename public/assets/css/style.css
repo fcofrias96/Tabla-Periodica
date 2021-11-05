@@ -1,0 +1,174 @@
+.columnas{
+  display: inline-block;
+  width: 63px;
+  height: 70px;
+  border-style: solid;
+  text-align: center;
+  margin: 0px -4px -4px;
+    
+
+    
+ 
+}
+
+.empty{
+
+  display: inline-block;
+  width: 69px;
+  text-align: center;
+  margin: -4px;
+  height: fit-content;
+   
+}
+
+
+.grey{
+
+  display: inline-block;
+  width: 63px;
+  height: 70px;
+  text-align: center;
+  margin: 0px -4px -4px;
+  background-color: rgb(144, 144, 144);
+  border-style: solid;
+}
+
+.grey h4{
+
+  color:  rgb(144, 144, 144);
+}
+.container{
+    
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.caption{
+
+  width: 115px;
+  height: 90px;
+  border-style: solid;
+  display: inline-block;
+  margin: 0px -4px -4px;
+  overflow: auto;
+
+}
+.center{
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.mt-4{
+  margin-top: 4%;
+  
+}
+
+
+p,h4{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 700;
+  margin: 0px;
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+  justify-content: center;
+  font-family: cursive;
+
+
+}
+
+.header{
+  height: 20px;
+}
+.metales{
+  width: 700px; /* 0.55*/
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+  overflow: auto;
+}
+
+.no-metales{
+
+  width: 349px; /*0.33*/
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+  overflow: auto;
+}
+
+.metaloides{
+
+  width: 115px; /*0.11*/
+  display: inline-block;
+  border: solid;
+  margin: 0px -4px -4px;
+}
+.bg-grey{
+    background-color: rgb(144, 144, 144);
+  }
+  
+  .bg-lightgrey{
+    background-color: rgb(223, 223, 223);
+  }
+  
+  .bg-purple{
+  
+    background-color: rgb(209, 12, 209);
+  
+  }
+  
+  .bg-lightyellow{
+  
+    background-color: #fffd94;
+  }
+  
+  .bg-yellow{
+  
+    background-color: #f1ed00;
+  }
+  
+  .bg-lightgreen{
+  
+    background-color: #79ff6d;
+  }
+  
+  .bg-green{
+  
+    background-color: #12d800;
+  }
+  
+  .bg-blue{
+  
+    background-color:#3535ff;
+  }
+  
+  .bg-red{
+  
+    background-color:#ff2b2b;
+  }
+  .bg-lightOrange{
+  
+    background-color: #ffa26d;
+  }
+  
+  .bg-orange{
+  
+    background-color: orange;
+  }
+  
+  
+  
+  .bg-pink{
+  
+    background-color: pink;
+  }
+  
